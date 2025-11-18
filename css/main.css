@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* header start  */
 
 .header {
@@ -1972,7 +1976,12 @@
         width: 100%;
         padding: 16px 0 70px 24px;
         border-radius: 8px;
-        border: 1px solid rgba(255, 255, 255, 1)
+        border: 1px solid transparent
+    }
+
+    .printwell__row__boxes_box:hover {
+        transition: all 0.6s;
+        border: 1px solid rgba(255, 255, 255, 1);
     }
 
     .printwell__row__boxes_box__title {
@@ -2055,7 +2064,12 @@
         width: 100%;
         padding: 16px 0 70px 24px;
         border-radius: 8px;
-        border: 1px solid rgba(255, 255, 255, 1)
+        border: 1px solid transparent;
+    }
+
+    .printwell__row__boxes_box:hover {
+        transition: all 0.6s;
+        border: 1px solid rgba(255, 255, 255, 1);
     }
 
     .printwell__row__boxes_box__title {
@@ -2138,12 +2152,17 @@
         width: 100%;
         padding: 16px 0 70px 24px;
         border-radius: 8px;
-        border: 1px solid rgba(255, 255, 255, 1)
+        border: 1px solid transparent;
+    }
+
+    .printwell__row__boxes_box:hover {
+        transition: all 0.6s;
+        border: 1px solid rgba(255, 255, 255, 1);
     }
 
     .printwell__row__boxes_box__title {
         font-weight: 500;
-        font-size: 56px;
+        font-size: 46px;
         line-height: 84.13px;
         color: rgba(255, 255, 255, 1);
     }
