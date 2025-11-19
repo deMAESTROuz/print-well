@@ -136,6 +136,7 @@ html {
     display: none;
     align-items: center;
     justify-content: flex-end;
+    z-index: 100;
 }
 
 .menu-modal.open {
@@ -1886,6 +1887,8 @@ html {
     border-radius: 8px;
     cursor: pointer;
     border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(202.8000030517578px);
 }
 
 .printwell__row__boxes_box:hover {
@@ -1976,7 +1979,7 @@ html {
         width: 100%;
         padding: 16px 0 70px 24px;
         border-radius: 8px;
-        border: 1px solid transparent
+        border: 1px solid transparent;
     }
 
     .printwell__row__boxes_box:hover {
@@ -2782,6 +2785,7 @@ html {
 
 
 /* company end */
+
 
 /* asked start */
 
@@ -3745,6 +3749,7 @@ html {
     color: rgba(255, 255, 255, 1);
     max-width: 671px;
     width: 100%;
+    opacity: 50%;
 }
 
 .footer__list {
@@ -3772,6 +3777,7 @@ html {
     margin-bottom: 24px;
     width: 100%;
     border: 1px solid rgba(255, 255, 255, 1);
+    opacity: 50%;
 }
 
 .footer_box {
@@ -3833,6 +3839,7 @@ html {
         max-width: 671px;
         width: 100%;
         margin-bottom: 95px;
+        opacity: 50%;
     }
 
     .footer__list {
@@ -3861,6 +3868,7 @@ html {
         margin-bottom: 24px;
         width: 100%;
         border: 1px solid rgba(255, 255, 255, 1);
+        opacity: 50%;
     }
 
     .footer_box {
@@ -3923,6 +3931,7 @@ html {
         max-width: 671px;
         width: 100%;
         margin-bottom: 95px;
+        opacity: 50%;
     }
 
     .footer__list {
@@ -3951,6 +3960,7 @@ html {
         margin-bottom: 24px;
         width: 100%;
         border: 1px solid rgba(255, 255, 255, 1);
+        opacity: 50%;
     }
 
     .footer_box {

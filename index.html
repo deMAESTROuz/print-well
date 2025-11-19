@@ -27,7 +27,7 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">
+                        <a href="./Наши услуги.html" class="nav__link">
                             Наши услуги
                         </a>
                     </li>
@@ -69,7 +69,7 @@
         </div>
     </header>
 
-    <!-- ===== Mobile Menu Modal Start ===== -->
+    <!-- ===== Mobile Menu Modal Start ===== -->    
     <div class="menu-modal">
         <div class="menu-modal__content">
             <div class="menu-modal__top">
@@ -88,7 +88,7 @@
             <h3 class="menu-modal__title">Menu</h3>
             <ul class="menu-modal__list">
                 <li><a href="./O нас.html">О нас</a></li>
-                <li><a href="#">Наши услуги</a></li>
+                <li><a href="./Наши услуги.html">Наши услуги</a></li>
                 <li><a href="#">Наши проекты</a></li>
                 <li><a href="#">Наши партнеры</a></li>
                 <li><a href="#">Контакты</a></li>
@@ -383,12 +383,12 @@
             <div class="order__col">
                 <h3 class="order__col__title">Мы свяжемся с вами!</h3>
                 <form action="" class="order__col__form">
-                    <label class="order__col__form__label" for="">Ваше имя</label>
-                    <input class="order__col__form__input" type="text">
-                    <label class="order__col__form__label" for="">Ваш номер телефона</label>
-                    <input class="order__col__form__input" type="tel" placeholder="">
-                    <label class="order__col__form__label" for="">Название вашей компании</label>
-                    <input class="order__col__form__input" type="text" placeholder="">
+                    <label class="order__col__form__label" for="name">Ваше имя</label>
+                    <input required class="order__col__form__input" id="name" type="text">
+                    <label class="order__col__form__label" for="tel">Ваш номер телефона</label>
+                    <input required class="order__col__form__input" id="tel" type="tel" placeholder="">
+                    <label class="order__col__form__label" for="company">Название вашей компании</label>
+                    <input required class="order__col__form__input" id="company" type="text" placeholder="">
                     <button class="order__col__form__btn">
                         Отправить
                     </button>
