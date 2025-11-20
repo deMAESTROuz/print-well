@@ -2203,6 +2203,7 @@ html {
 
 /* printwell end */
 
+
 /* partner start */
 
 .partner {
@@ -2444,6 +2445,7 @@ html {
 }
 
 /* partner end */
+
 
 /* company start */
 
@@ -3629,13 +3631,13 @@ html {
         background: rgba(255, 255, 255, 0.05);
         max-width: 850px;
         width: 100%;
-        padding: 24px;
+        padding: 16px;
         border-radius: 8px;
     }
 
     .order__col__title {
         font-weight: 700;
-        font-size: 18px;
+        font-size: 17px;
         line-height: 120%;
         text-transform: uppercase;
         color: rgba(133, 190, 255, 1);
